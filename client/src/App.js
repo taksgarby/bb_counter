@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Container from './Containers/Container';
 
 function App() {
   return (
     <div className="App">
-      <h1>Banana Batman Counter</h1>
+      <Container />
     </div>
   );
 }
