@@ -1,23 +1,7 @@
-const PlaceholderSelect = ({placeholders}) => {
-    
-    const placeholderSelect = placeholders.map(placeholder => {
-        return (
-            <div key ={placeholder._id}>
-                
-                {placeholder.word}
-
-            </div>
-        )
-    }) 
-    
+const PlaceholderSelect = () => {
     return ( 
-    <>       
-     <h1>Placeholder Select</h1>
-        {placeholderSelect}
-        </>
-
+        <h1>PlaceholderSelect</h1>
      );
 }
-
  
 export default PlaceholderSelect;

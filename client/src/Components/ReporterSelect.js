@@ -1,22 +1,7 @@
-const ReporterSelect = ({reporters}) => {
-
-  const reporterSelect = reporters.map(reporter => {
+const ReporterSelect = () => {
     return (
-        <div key ={reporter._id}>
-            
-            {reporter.name}
-
-        </div>
-    )
-}) 
-
-return ( 
-<>       
- <h1>Reporter Select</h1>
-    {reporterSelect}
-    </>
-
- );
+        <h1>ReporterSelect</h1>
+      );
 }
  
 export default ReporterSelect;
